@@ -84,7 +84,7 @@ This project helped me develop my problem-solving skills and become more confide
 
 ## 🔗 Live Demo
 
-[View Live Project](https://aledjan1.github.io/number-explorer/)
+https://aledjan1.github.io/Number-Explorer/
 
 *Update this link if your GitHub repository has a different name.*
 
