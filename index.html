@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Number Explorer</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <main class="explorer">
+      <header class="header">
+        <div class="header-icon">▦</div>
+        <h1>Number Explorer</h1>
+        <p>Discover the properties of any number</p>
+      </header>
+
+      <section class="calculator">
+        <label for="number-input">Enter a number</label>
+
+        <div class="input-row">
+          <input
+            type="number"
+            id="number-input"
+            placeholder="e.g. 7"
+            step="any"
+          />
+
+          <button class="calculate-btn" type="button">Calculate</button>
+        </div>
+
+        <p class="error-message" id="number-error"></p>
+      </section>
+
+      <section class="results">
+        <div class="result-card">
+          <div class="result-icon">⚖</div>
+          <div class="result-content">
+            <h2>Even or Odd</h2>
+            <p class="result-value" id="even-odd">—</p>
+          </div>
+        </div>
+
+        <div class="result-card">
+          <div class="result-icon">x²</div>
+          <div class="result-content">
+            <h2>Square</h2>
+            <p class="result-value" id="square">—</p>
+          </div>
+        </div>
+
+        <div class="result-card">
+          <div class="result-icon">x³</div>
+          <div class="result-content">
+            <h2>Cube</h2>
+            <p class="result-value" id="cube">—</p>
+          </div>
+        </div>
+
+        <div class="result-card">
+          <div class="result-icon">√</div>
+          <div class="result-content">
+            <h2>Square Root</h2>
+            <p class="result-value" id="square-root">—</p>
+          </div>
+        </div>
+
+        <div class="result-card">
+          <div class="result-icon">|x|</div>
+          <div class="result-content">
+            <h2>Absolute Value</h2>
+            <p class="result-value" id="absolute-value">—</p>
+          </div>
+        </div>
+
+        <div class="result-card">
+          <div class="result-icon">↓</div>
+          <div class="result-content">
+            <h2>Rounded Down</h2>
+            <p class="result-value" id="rounded-down">—</p>
+          </div>
+        </div>
+
+        <div class="result-card">
+          <div class="result-icon">↑</div>
+          <div class="result-content">
+            <h2>Rounded Up</h2>
+            <p class="result-value" id="rounded-up">—</p>
+          </div>
+        </div>
+
+        <div class="result-card">
+          <div class="result-icon">≈</div>
+          <div class="result-content">
+            <h2>Rounded</h2>
+            <p class="result-value" id="rounded">—</p>
+          </div>
+        </div>
+      </section>
+
+      <footer class="tip">
+        <span>💡</span>
+        Try different numbers: positive, negative, and decimals!
+      </footer>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
